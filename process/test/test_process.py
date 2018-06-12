@@ -166,6 +166,7 @@ class ProcessCheckTest(AgentCheckTest):
         'system.processes.run_time.avg',
         'system.processes.run_time.max',
         'system.processes.run_time.min',
+        'system.processes.cpu.normalized_pct'
     ]
 
     PAGEFAULT_STAT = [
