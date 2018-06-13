@@ -150,6 +150,7 @@ class ProcessCheckTest(AgentCheckTest):
 
     PROCESS_METRIC = [
         'system.processes.cpu.pct',
+        'system.processes.cpu.normalized_pct',
         'system.processes.involuntary_ctx_switches',
         'system.processes.ioread_bytes',
         'system.processes.ioread_count',
@@ -166,7 +167,6 @@ class ProcessCheckTest(AgentCheckTest):
         'system.processes.run_time.avg',
         'system.processes.run_time.max',
         'system.processes.run_time.min',
-        'system.processes.cpu.normalized_pct'
     ]
 
     PAGEFAULT_STAT = [
